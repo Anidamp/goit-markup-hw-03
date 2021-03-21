@@ -8,6 +8,14 @@
     --hero-text-color: #FFFFFF;
 
 }
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
 
 body {
     font-family: Roboto;
@@ -27,6 +35,18 @@ letter-spacing: 0.02em;
 text-decoration: none;
 }
 
+.container {
+    width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .logo{
     font-family: Raleway;
 font-style: normal;
@@ -37,12 +57,26 @@ text-decoration: none;
 color: var(--accent-text-color);
 }
 
+.header .logo {
+    margin-right: 93px;
+}
+
 .logo span{
     color: var(--tittle-text-color);
 }
 
 .list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
     list-style: none;
+}
+
+.menu {
+    display: inline-flex;
+}
+.menu-item:not(:last-child) {
+    margin-right: 50px;
 }
 
 .link {
