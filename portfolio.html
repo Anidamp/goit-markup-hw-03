@@ -8,83 +8,89 @@
         <link rel="stylesheet" href="/css/style.css">
     </head>
     <body>
-        <header>
-            <nav>
-                <a class="logo" href="/index.html">Web<span>Studio</span></a>
-                <ul class="list">
-                    <li><a class="link" href="/index.html">Студия</a></li>
-                    <li><a class="link" href="/portfolio.html">Портфолио</a></li>
-                    <li><a class="link" href="">Контакты</a></li>
+        <header class="header">
+            <div class="container">
+                <nav class="navigation">
+                    <a class="logo" href="/index.html">Web<span>Studio</span></a>
+                    <ul class="list menu">
+                        <li class="menu-item"><a class="link menu-link" href="/index.html">Студия</a></li>
+                        <li class="menu-item"><a class="link menu-link" href="/portfolio.html">Портфолио</a></li>
+                        <li class="menu-item"><a class="link menu-link" href="">Контакты</a></li>
+                    </ul>
+                </nav>
+                <ul class=" list menu">
+                    <li class="menu-item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
+                    <li class="menu-item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a> </li>
                 </ul>
-            </nav>
-            <ul class="list">
-                <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-                <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a> </li>
-            </ul>
+            </div>
         </header>
         <main>
-            <section class="all">
-                <ul class="list">
-                    <li><button class="button" type="button">Все</button></li>
-                    <li><button class="button" type="button">Веб-сайты</button></li>
-                    <li><button class="button" type="button">Приложения</button></li>
-                    <li><button class="button" type="button">Дизайн</button></li>
-                    <li><button class="button" type="button">Маркетинг</button></li>
+            <div class="container buttons">
+                <ul class="button-list list">
+                    <li class="item"><button class="button" type="button">Все</button></li>
+                    <li class="item"><button class="button" type="button">Веб-сайты</button></li>
+                    <li class="item"><button class="button" type="button">Приложения</button></li>
+                    <li class="item"><button class="button" type="button">Дизайн</button></li>
+                    <li class="item"><button class="button" type="button">Маркетинг</button></li>
                 </ul>
-            
-                <ul class="list">
-                    <li><img src="./images/portfolio/img1.jpg" alt="Монитор с командой" width="370" height="294">
+            </div>
+            <section class="section all">
+                <div class="container">
+                <ul class=" all-list list">
+                    <li class="all-item"><img src="./images/portfolio/img1.jpg" alt="Монитор с командой" width="370" height="294">
                         <h3>Технокряк</h3>
                         <p>Веб-сайт</p>
                     </li>
-                    <li>
+                    <li class="all-item">
                         <img src="/images/portfolio/img2.jpg" width="370" height="294" alt="">
                         <h3>Проект Prime</h3>
                         <p>Маркетинг</p>
                     </li>
-                    <li>
+                    <li class="all-item">
                         <img src="/images/portfolio/img3.jpg" width="370" height="294" alt="">
                         <h3>Издание Limited Edition</h3>
                         <p>Дизайн</p>
                     </li>
                 </ul>
-                <ul class="list">
-                    <li>
+                <ul class="all-list list">
+                    <li class="all-item">
                         <img src="/images/portfolio/img4.jpg" width="370" height="294" alt="">
                         <h3>Постер New Orlean vs Golden Star</h3>
                         <p>Дизайн</p>
                     </li>
-                    <li>
+                    <li class="all-item">
                         <img src="/images/portfolio/img5.jpg" width="370" height="294" alt="">
                         <h3>Проект Boxes</h3>
                         <p>Приложения</p>
                     </li>
-                    <li>
+                    <li class="all-item">
                         <img src="/images/portfolio/img6.jpg" width="370" height="294" alt="">
                         <h3>Проект LAB</h3>
                         <p>Маркетинг</p>
                     </li>
                 </ul>
-                <ul class="list">
-                    <li>
+                <ul class="all-list list">
+                    <li class="all-item">
                         <img src="./images/portfolio/img7.jpg" alt="Разработчик пишет код" width="370" height="294">
                         <h3>Ресторан Seafood</h3>
                         <p>Приложения</p>
                     </li>
-                    <li>
+                    <li class="all-item">
                         <img src="/images/portfolio/img8.jpg" width="370" height="294" alt="">
                         <h3>Inspiration has no Borders</h3>
                         <p>Веб-сайт</p>
                     </li>
-                    <li>
+                    <li class="all-item">
                         <img src="/images/portfolio/img9.jpg" width="370" height="294" alt="">
                         <h3>Growing Business</h3>
                         <p>Приложения</p>
                     </li>
                 </ul>
+                </div>
             </section>
         </main>
         <footer class="footer">
+            <div class="container">
             <a class="logo" href="/index.html">Web<span>Studio</span></a>
             <address>
                 <ul class="list">
@@ -93,7 +99,7 @@
                     <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
             </address>
-
+            </div>
         </footer>
         
     </body>
