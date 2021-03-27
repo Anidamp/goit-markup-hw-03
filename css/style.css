@@ -58,6 +58,11 @@ text-decoration: none;
     border: 1px solid #ECECEC;
 }
 
+.adress .link {
+    color: var(--main-text-color--);
+
+}
+
 .container {
     width: 1200px;
     margin-right: auto;
@@ -245,6 +250,7 @@ color: var(--tittle-text-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+    background-color: var(--hero-text-color);
   }
   
   .team-iteam-text {
@@ -257,6 +263,9 @@ padding-top: 30px;
 padding-left: 24px;   
 padding-right: 24px;   
 background-color: var(--background-colour);
+}
+.card {
+    margin: 20px 24px;
 }
 
 .buttons .button{
@@ -320,7 +329,6 @@ line-height: 1.87;
 .footer span {
     color: var(--hero-text-color);
 }
-
 footer .link {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
